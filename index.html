@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill Group</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <nav>
+            <img class="header__logo" src="img/logo.png" alt="logo" />
+            <a href="#!">О компании</a>
+            <a href="#!">Структура</a>
+            <a href="#!">Лицензии</a>
+            <a href="#!">Клиенты</a>
+            <a href="#!">Контакты</a>
+            <a class="phone" href="#!">+7 (777) 555 55 55</a>
+          </nav>
+          <!--burger-->
+          <div class="menu-mobile dropdown">
+            <div class="menu-mobile__btn dropbtn"></div>
+            <div class="dropdown-content">
+              <!--see script.js line 16-->
+              <ul class="menu-mobile__list"></ul>
+            </div>
+          </div>
+          <!--burger end-->
+        </div>
+      </header>
+      <main>
+        <section class="intro">
+          <div class="container">
+            <h1>
+              <span>системы</span> <span>холодоснабжения</span>
+              <span>вентиляции</span> <span>кондиционирования</span>
+              <span>отопления</span>
+            </h1>
+            <button>
+              Отправить заявку<img src="img/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </section>
+        <section class="about">
+          <h2>О компании</h2>
+          <div class="about__inner">
+            <div class="about__text">
+              <p>Компания «Чилл Груп» была организована в 2020 году.</p>
+              <p>
+                За время своего существования компанией было реализовано много
+                интересных и технически сложных проектов, а также было принято в
+                эксплуатацию для дальнейшего технического сервисного
+                обслуживания множество объектов разного года реализации других
+                компаний. Запущены и введены в эксплуатацию инженерные системы
+                производственных предприятий, логистических и складских
+                комплексов, предприятий общественного питания и торговли.
+                Большая часть объектов, реализованных специалистами компании,
+                также приняты на сервисное, эксплуатационное обслуживание.
+              </p>
+              <p>
+                Деятельность компании «Чилл Груп» - это полный комплекс услуг по
+                технологическому проектированию, поставке, монтажу и сервисному
+                обслуживанию систем холодоснабжения, вентиляции,
+                кондиционирования воздуха, отопления и автоматизацией инженерных
+                систем.
+              </p>
+              <p>
+                Важнейшим активом компании «Чилл Груп» является накопленный опыт
+                реализованных проектов. А главная ценность компании это каждый
+                наш специалист, с полным профессионализмом и рвением отдающий
+                себя каждому новому проекту.
+              </p>
+              <p>
+                Все специалисты нашей компании - это высококвалифицированные
+                инженеры и профессионалы своей области.
+              </p>
+              <p>
+                Компания «Чилл Груп» рада стать Вашим надежным партнером и
+                добрым другом, настроенным на долгосрочное и добросовестное
+                деловое сотрудничество.
+              </p>
+            </div>
+            <div class="about__images">
+              <img class="about__img" src="img/about.png" alt="about" />
+              <img class="about__logo" src="img/logo-white.png" alt="logo" />
+            </div>
+          </div>
+        </section>
+        <section class="services">
+          <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services__cards">
+              <div class="services__card">
+                <img src="img/service1.svg" alt="icon" />
+                <p>Подбор оборудования</p>
+              </div>
+              <div class="services__card">
+                <img src="img/service2.svg" alt="icon" />
+                <p>Проектирование</p>
+              </div>
+              <div class="services__card">
+                <img src="img/service3.svg" alt="icon" />
+                <p>Поставка оборудования</p>
+              </div>
+              <div class="services__card">
+                <img src="img/service4.svg" alt="icon" />
+                <p>Монтажные работы</p>
+              </div>
+              <div class="services__card">
+                <img src="img/service5.svg" alt="icon" />
+                <p>Пуско-наладочные работы</p>
+              </div>
+              <div class="services__card">
+                <img src="img/service6.svg" alt="icon" />
+                <p>Обучение персонала</p>
+              </div>
+              <div class="services__card">
+                <img src="img/service7.svg" alt="icon" />
+                <p>Сервисное обслуживание</p>
+              </div>
+              <div class="services__card">
+                <img src="img/service8.svg" alt="icon" />
+                <p>Техническая поддержка</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="facilities">
+          <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="facilities__cards">
+              <div class="facilities__card">
+                <img src="img/facility1.svg" alt="icon" />
+                <p><span>>10 000</span><span>м</span></p>
+                <p>промышленных площадей</p>
+                <p>
+                  оснащено инженерными системами и запущено<br />
+                  в эксплуатацию
+                </p>
+              </div>
+              <div class="facilities__card">
+                <img src="img/facility2.svg" alt="icon" />
+                <p><span>>10</span><span>МВт</span></p>
+                <p>холодильной мощности</p>
+                <p>
+                  <span>ежемесячно</span> обслуживается специалистами компании
+                </p>
+              </div>
+              <div class="facilities__card">
+                <img src="img/facility3.svg" alt="icon" />
+                <p><span>>50</span></p>
+                <p>контрактов</p>
+                <p>
+                  на постоянной основе<br />
+                  и <span>более 100</span> реализованных проектов
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="structure">
+          <div class="container">
+            <h2>
+              Cтруктура производственных подразделений компании «Чилл груп»
+            </h2>
+            <div class="chart">
+              <ul>
+                <li>Директор направления</li>
+                <li>Проектный отдел</li>
+                <li>Проекты</li>
+                <li>Производственный отдел</li>
+                <li>Монтажные бригады</li>
+              </ul>
+              <div class="diagram">
+                <img src="img/diagram.svg" alt="diagram" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="license">
+          <div class="container">
+            <h2>Лицензии</h2>
+            <div class="license__items">
+              <div class="license__item">
+                <div class="license__item_pages">
+                  <img
+                    class="license__item_page"
+                    src="img/a4-1 1.png"
+                    alt="license"
+                  />
+                  <img
+                    class="license__item_page"
+                    src="img/a42 1.png"
+                    alt="license"
+                  />
+                </div>
+                <div class="license__caption">
+                  <p>
+                    Свидетельство СРО о допуске к проектным работам в СРО МААП,
+                  </p>
+                  <p>
+                    Единый регистрационный номер члена саморегулируемой
+                    организации – 0567 от 15.06.2022 г.
+                  </p>
+                </div>
+              </div>
+              <div class="license__item">
+                <div class="license__item_pages">
+                  <img
+                    class="license__item_page"
+                    src="img/a43 1.png"
+                    alt="license"
+                  />
+                  <img
+                    class="license__item_page"
+                    src="img/a44 1.png"
+                    alt="license"
+                  />
+                </div>
+                <div class="license__caption">
+                  <p>
+                    Свидетельство СРО о допуске к монтажным и пуско-наладочным
+                    работам в СРО Архитектурное наследие.
+                  </p>
+                  <p>
+                    Регистрационный номер члена в реестре членов СРО –
+                    030423/554 от 03.04.2023 г.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="license__captions"></div>
+          </div>
+        </section>
+        <section class="certificate">
+          <div class="container">
+            <h2>Сертификаты</h2>
+            <div class="certificate__slider">
+              <img
+                class="prev-button"
+                src="img/arrow-left.svg"
+                alt="arrow-left"
+              />
+              <div class="certificate__items">
+                <div class="certificate__item">
+                  <div class="certificate__item_inner">
+                    <img
+                      class="certificate__page"
+                      src="img/a46 1.png"
+                      alt="certificate"
+                    />
+                    <div class="certificate__caption">
+                      <p>DYNACO</p>
+                      <p>производитель промышленных скоростных ворот</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="certificate__item">
+                  <div class="certificate__item_inner">
+                    <img
+                      class="certificate__page"
+                      src="img/a45 1.png"
+                      alt="certificate"
+                    />
+                    <div class="certificate__caption">
+                      <p>ООО «ЛЮ-ВЕ МОСКОУ»</p>
+                      <p>производство теплообменного оборудования</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="certificate__item">
+                  <div class="certificate__item_inner">
+                    <img
+                      class="certificate__page"
+                      src="img/a47 1.png"
+                      alt="certificate"
+                    />
+                    <div class="certificate__caption">
+                      <p>ООО «Кельвион Машимпэкс»</p>
+                      <p>производство теплообменного оборудования</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="next-button"
+                src="img/arrow-right.svg"
+                alt="arrow-right"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="client">
+          <div class="container">
+            <h2>Наши клиенты</h2>
+            <div class="client__items">
+              <img src="img/ehrmann.png" alt="client logo" />
+              <img src="img/magnit.png" alt="client logo" />
+              <img src="img/huhtamaki.png" alt="client logo" />
+              <img src="img/unicum.png" alt="client logo" />
+              <img src="img/simplewine.png" alt="client logo" />
+              <img src="img/teremok.png" alt="client logo" />
+              <img src="img/rusich.png" alt="client logo" />
+              <img src="img/sladkaya_zhizn.png" alt="client logo" />
+              <img src="img/moscow_beer_company.png" alt="client logo" />
+              <img src="img/veropharm.png" alt="client logo" />
+              <img src="img/dalimo.png" alt="client logo" />
+              <img src="img/spartak.png" alt="client logo" />
+              <img src="img/abi.png" alt="client logo" />
+              <img src="img/alphapet.png" alt="client logo" />
+              <img src="img/elma_group.png" alt="client logo" />
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="container">
+            <h2>
+              <span>Остались вопросы?</span>
+              <span>Свяжитесь с нами!</span>
+            </h2>
+            <div class="contacts__block">
+              <button>
+                Отправить заявку<img src="img/arrow.svg" alt="arrow" />
+              </button>
+              <div class="contacts__items">
+                <div class="contacts__item">
+                  <img src="img/location.svg" alt="location" />
+                  <div class="contacts__address">
+                    <p>г. Москва,</p>
+                    <p>ул. Электрозаводская д.20,</p>
+                    <p>офис 214-216</p>
+                  </div>
+                </div>
+                <div class="contacts__item">
+                  <img src="img/phone.svg" alt="phone" />
+                  <p>8 (495) 966-11-80</p>
+                </div>
+                <div class="contacts__item">
+                  <img src="img/email.svg" alt="email" />
+                  <p>mail@mail.ai</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="container">
+          <nav>
+            <a href="#!">О компании</a>
+            <a href="#!">Структура</a>
+            <a href="#!">Лицензии</a>
+            <a href="#!">Клиенты</a>
+            <a href="#!">Контакты</a>
+            <img class="footer__logo" src="img/logo.png" alt="logo" />
+          </nav>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
