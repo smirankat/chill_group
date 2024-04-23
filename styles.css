@@ -646,22 +646,17 @@ footer nav {
   }
   .certificate__items {
     padding-left: clamp(30px, 30px + 150 * (100vw - 320px)/447, 180px);
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 750px 0 750px 0 750px;
+    grid-template-columns: repeat(3, 750px);
     gap: 0;
     overflow: hidden;
+    -webkit-transition: margin-left 250ms;
+    -o-transition: margin-left 250ms;
+    transition: margin-left 250ms;
   }
   .certificate__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 750px;
-  }
-  .certificate__item_inner {
     width: calc(200px + 135 * (100vw - 320px) / 447);
   }
   .client__items {
